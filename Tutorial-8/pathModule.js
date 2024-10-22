@@ -93,6 +93,3 @@ const pathObj=  {
   // will learn about this
   console.log(path.resolve(__filename,"file1/file2/index.js"))
   console.log(path.resolve(__filename,"/file1"))
-
-
-
