@@ -9,5 +9,5 @@ while(i!=6){
 
 
 fs.readdir(filePath,(error,data)=>{     //provides all the files inside the given dir in an array.
-    console.log(data)
+    console.log(data);
 })
