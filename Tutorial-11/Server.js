@@ -77,7 +77,7 @@ app.get('/about',(req,res)=>{
 })
 
 app.get('/login',(req,res)=>{
-    res.send("you have succesfully send Login");
+    res.send(req.url);
 })
 
 app.get('/about/more',(req,res)=>{
